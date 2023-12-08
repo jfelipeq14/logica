@@ -1,0 +1,65 @@
+p: te regalare flores
+q: te regalare dulces
+
+te regalare flores 'y' dulces
+
+tabla
+
+p - q - p^q
+
+v - v = v
+v - f = f
+f - v = f
+f - f = f
+
+Solo es verdadera si ambas son verdaderas
+
+___________________________________
+
+te regalare flores 'o' dulces
+
+tabla
+
+p - q - pvq
+
+v - v = v
+v - f = v
+f - v = v
+f - f = f
+
+Solo es falsa si ambas son falsas
+___________________________________
+
+'no' te regalare flores
+
+p - ¬p - ¬¬p
+
+v - f - v
+
+f - v - f
+
+la negacion va con la primera
+___________________________________
+
+te regalare flores 'entonces' te regalare dulces
+
+p - q - p=>q
+
+v - v = v
+v - f = f
+f - v = v
+f - f = v
+
+la unica falsa es si la primera es verdader y la segunda es falsa
+___________________________________
+
+te regalare flores 'si y solo si' te regalare dulces
+
+p - q - p<=>q
+
+v - v = v
+v - f = f
+f - v = f
+f - f = v
+
+es verdadera si ambas son iguales (v - v y f - f)

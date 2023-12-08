@@ -1,0 +1,48 @@
+¬ ~ / ' NEGACION
+
+^ Y
+
+v O
+
+ENTONCES => CONDICIONAL
+
+SI Y SOLO SI <=> BICONDICIONAL
+
+
+p: ire a cine
+q: ire a jugar futbol
+r: te regalo flores
+s: te reglo dulces
+t: esta lloviendo
+u: hay nubes en el cielo
+x: el numero 2 es par
+
+
+// negaciones: '¬'
+
+no ire al cine: ¬p
+¬q
+¬r
+¬v
+
+es falso que no esta lloviendo: ¬¬t = t
+es falso que el numero dos no es par: ¬¬x = x
+
+// conjuncion: '^' = 'y'
+
+ire al cine y a jugar futbol: p ^ q
+te regalo flores y dulces: r ^ s
+
+// disyuncion: 'v' = 'o'
+
+ire al cine y a jugar futbol: p v q
+te regalo flores y dulces: r v s
+
+// condicional: '=>' = 'entonces'
+
+ire al cine entonces ire a jugar futbol: p => q
+esta lloviendo entonces hay nubes en el cielo: t => u
+
+// bicondicional '<=>' = 'si y solo si'
+
+esta lloviendo si y solo si hay nubes en el cielo: u <=> t

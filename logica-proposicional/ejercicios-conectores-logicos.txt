@@ -1,0 +1,7 @@
+¬p^q: 'no' ire a cine 'y' ire a jugar futbol
+
+p=>¬q: ire a cine 'entonces' 'no' ire a jugar futbol
+
+rv¬s: te regalo flores 'o' 'no' te regalo dulces
+
+¬u=>¬t: 'no' hay nubes en el cielo 'entonces' 'no' esta lloviendo
